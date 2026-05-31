@@ -14,9 +14,42 @@
   <title>AlessandroCryptoLAB — финансовая инженерия и алгоритмическая аналитика крипторынка</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="AlessandroCryptoLAB — проект финансовой инженерии и алгоритмической аналитики крипторынка. Volatility Analyzer, Telegram-бот, live grid engine на Bybit, опционные сервисы, анализ волатильности и импульсов.">
-
+    .language-switcher {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 1000;
+      display: flex;
+      gap: 8px;
+    }
+    
+    .language-switcher a {
+      color: #cfd8e3;
+      text-decoration: none;
+      border: 1px solid #2a2f3a;
+      background: #131722;
+      padding: 8px 12px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+    
+    .language-switcher a:hover {
+      border-color: #9fd3ff;
+    }
+    
+    .language-switcher .active {
+      background: #9fd3ff;
+      color: #0f1115;
+      border-color: #9fd3ff;
+    }
   <style>
     body {
+      <div class="language-switcher">
+        <a class="active" href="index.html">RU</a>
+        <a href="en.html">EN</a>
+        <a href="it.html">IT</a>
+      </div>
       margin: 0;
       padding: 0;
       background-color: #0f1115;
